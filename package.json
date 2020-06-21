@@ -1,0 +1,24 @@
+{
+  "name": "hasura-mqtt-connect",
+  "version": "1.0.0",
+  "description": "hasura mqtt wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:emulator": "node emulator.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mqtt",
+    "hasura"
+  ],
+  "author": "soorajshankar@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqtt": "4.1.0",
+    "node-fetch": "^2.6.0",
+    "sparkplug-client": "3.2.2",
+    "sparkplug-payload": "1.0.1"
+  }
+}
