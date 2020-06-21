@@ -2,7 +2,7 @@
 
 ### Run MQTT wrapper
 ```sh
-cpm expample.env .env
+cp expample.env .env
 # configure MQTT AND HASURA URLS 
 yarn 
 yarn start
@@ -16,9 +16,9 @@ npm run start
 
 ### Prerequisites
 
-MQTT broker 
-Hasura instance
-NodeJS and NPM
+1. MQTT broker 
+2. Hasura instance
+3. NodeJS and NPM
 
 
 ** package locked with yarn config
